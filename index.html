@@ -1,38 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Centralized Content Management System</title>
-  <!-- Add your CSS file here -->
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <!-- Add your navigation links here -->
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Templates</a></li>
-        <li><a href="#">Content Management</a></li>
-        <li><a href="#">Scheduling</a></li>
-        <li><a href="#">Settings</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centralized Content Management System</title>
+    <!-- Add your CSS file here -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Add font awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/6en8XCp+HHAAK5GSLf2xlYtvJ8U2Q4U+9cuEnJoa3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <!-- Add your logo image here -->
+          <img src="logo.png" alt="Logo" />
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Templates</a></li>
+          <li><a href="#">Content Management</a></li>
+          <li><a href="#">Scheduling</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <!-- Add your main content here -->
-    <h1>Welcome to the Centralized Content Management System</h1>
-    <p>Use this web app to manage and display content on TVs in hotels and hospitals.</p>
-  </main>
+    <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <h1>Welcome to the Centralized Content Management System</h1>
+        <p>
+          Use this web app to manage and display content on TVs in hotels and
+          hospitals.
+        </p>
+        <button>Get Started</button>
+      </section>
 
-  <footer>
-    <!-- Add your footer content here -->
-    <p>&copy; 2023 Your Company. All rights reserved.</p>
-  </footer>
+      <!-- Feature sections -->
+      <section class="features">
+        <div class="feature">
+          <i class="fas fa-tv"></i>
+          <h2>Customizable Templates</h2>
+          <p>
+            Choose from a set of predefined templates or create your own
+            templates for displaying content on TV screens.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-cloud-upload-alt"></i>
+          <h2>Content Management</h2>
+          <p>
+            Upload and manage content, such as images, videos, text, and more.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-calendar-alt"></i>
+          <h2>Scheduling and Automation</h2>
+          <p>
+            Schedule content display times and control when specific content
+            should be displayed on the TVs.
+          </p>
+        </div>
+      </section>
+    </main>
 
-  <!-- Add your JavaScript file here -->
-  <script src="main.js"></script>
-</body>
+    <footer>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Templates</a></li>
+          <li><a href="#">Content Management</a></li>
+          <li><a href="#">Scheduling</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </div>
+      <div class="social-media">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your JavaScript file here -->
+    <script src="main.js"></script>
+  </body>
 </html>
